@@ -1,0 +1,142 @@
+@font-face{
+    font-family: "Metropolis-ExtraBold";
+    src: url('../font/metropolis/Metropolis-ExtraBold.otf')
+}
+@font-face{
+    font-family: "Metropolis-Medium";
+    src:url('../font/metropolis/Metropolis-Medium.otf');
+}
+@font-face{
+    font-family: "Bebas";
+    src: url('../font/bebas-kai/BebasKai.otf')
+}
+@font-face{
+    font-family: "Poppins-Black";
+    src: url('../font/poppins/Poppins-Black.otf')
+}
+@font-face{
+    font-family: "Poppins";
+    src:url('../font/poppins/Poppins-BlackItalic.otf');
+}
+@font-face{
+    font-family: "Popins-Light";
+    src:url('../font/poppins/Poppins-Light.otf');
+}
+@font-face{
+    font-family: "Popins-Regular";
+    src:url('../font/poppins/Poppins-Regular.otf');
+}
+
+.part_One{
+    background-color: #1fd6ba!important;
+    height: 655px!important;
+}
+.part_Two{
+    background-color: #31415a;
+    height: 655px!important;
+}
+.entete{
+    text-transform: uppercase; 
+    color: #fff;
+    padding:10px;
+}
+.right{
+    color:#fff;
+    font-size: 16px;
+}
+.info{
+    text-transform: uppercase;
+    font-family: Bebas;
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: #fff;
+}
+.placeholder{
+    font-family: Popins-Light;
+    color: #64768c!important;
+}
+.compte{
+    font-family: Popins-Regular;
+    font-size: 18px;
+    position: relative;
+    top: 20px;
+}
+.create{
+    text-transform: uppercase;
+    font-family: Bebas;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 20px;
+    background-color: #1fd6ba!important;
+    border-color: #1fd6ba!important;
+}
+.create:hover{
+    text-transform: uppercase;
+    font-family: Bebas;
+    color: #1fd6ba;
+    letter-spacing: 2px;
+    font-size: 20px;
+    background-color: #fff!important;
+    border-color: #fff!important;
+}
+.stylish{
+    width: 80%;
+    margin-left: 60px;
+}
+.mut{
+    color: #1fd6ba!important;
+    font-size: 16px;
+}
+
+.form-control::placeholder{
+    color:#c9d3db;
+    opacity:1;
+}
+.form-control:focus{
+    border-color:#1fd6ba!important;
+    box-shadow: 0 0 0 .2rem rgb(55, 230, 200);
+    outline: 0;
+
+}
+input[type=text]{
+    background-color: #31415a!important;
+    border-radius: 0px;
+}
+input[type=password]{
+    background-color: #31415a!important;
+    border-radius: 0px;
+}   
+input[type=email]{
+    background-color: #31415a!important;
+    border-radius: 0px;
+}
+input[type=checkbox]{
+    background-color: #31415a!important;
+    border-color: #fff!important;
+}
+.placeholders{
+    background-color: #31415a !important;
+    font-family: Popins-Light;
+    color: #64768c!important;
+}
+.Connexion{
+    display: none;
+}
+.boom{
+    position: relative;
+    top: 105px;
+}
+/* Responsive Design */
+
+@media only screen and (max-width: 768px) {
+    .part_One{
+        display: none!important;
+    }
+    .stylish{
+        width: 80%;
+        margin-left: 31px;
+    }
+    .part_Two{
+        height: 740px !important;
+    }
+}
